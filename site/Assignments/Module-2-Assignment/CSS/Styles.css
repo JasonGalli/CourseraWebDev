@@ -1,0 +1,114 @@
+/*Styles For Assignment 2 Solution*/
+* {
+	box-sizing: border-box;
+	margin: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  margin-top: 50px;
+	color: black;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 700px;
+}
+
+@media(min-width: 992px) {
+.desktop{
+  padding: 5px;
+  box-sizing:border-box;
+	width: 31.33%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 20px;
+	background-color: grey;
+	border: 1px solid black;
+	position: relative;
+  float:left;
+  }
+}
+@media(min-width: 768px) and (max-width: 991px){
+  .tablet{
+    padding: 5px;
+    box-sizing: border-box;
+    width: 48%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 20px;
+    background-color: grey;
+    border: 1px solid black;
+    position: relative;
+    float: left;
+  }
+  .tablet100{
+    padding: 5px;
+    box-sizing: border-box;
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 20px;
+    background-color: grey;
+    border: 1px solid black;
+    position: relative;
+    float: left;
+  }
+}
+
+@media(max-width: 767px){
+  .mobile{
+    padding: 5px;
+    box-sizing: border-box;
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 20px;
+    background-color: grey;
+    border: 1px solid black;
+    position: relative;
+    float: left;
+  }
+}
+
+
+  #pchicken {
+  margin: 0;
+  background-color: #F569C2;
+  width: 33.33%;
+  text-align: center;
+  border: 1px solid black;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 125%;
+  }
+
+  #pbeef {
+  margin:0;
+  background-color: #D56851;
+  width: 33.33%;
+  text-align: center;
+  border: 1px solid black;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 125%;
+  }
+
+  #psushi {
+  margin:0;
+  background-color: #CDF56F;
+  width: 33.33%;
+  text-align: center;
+  border: 1px solid black;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 125%;
+  }
+
+ #p2{
+ 	position:relative;
+ 	padding: 10px;
+ 	padding-top: 40px;
+ 	overflow: hidden;
+ }
