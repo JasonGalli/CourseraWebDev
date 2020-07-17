@@ -1,0 +1,67 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #FFFFFF;
+  font-family: 'Raleway', sans-serif;
+}
+
+/**Header**/
+#header-nav {
+	background-color: #cdc8c6;
+}
+.navbar-brand {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	height:70px;
+}
+
+.navbar-brand h1 {
+	
+  color: #000000;
+  font-size: 2em;
+  font-weight:bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  text-align:left;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #000000;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+#collapsable-nav span{
+	text-align:center;
+	font-weight:bold;
+	color:  #0b5345;
+}
+/**Page Heading**/
+#page-heading {
+	font-weight:bold;
+	font-size: 2em;
+	color:#000000;
+	padding-bottom: 25px;
+}
+
+/**Main Content**/
+#main-content{
+	margin:10px;
+	background-color: #cdc8c6;
+}
+
+.row #chicken {
+	color: #000000;
+	font-size: 1.3em;
+	font-weight:bold;
+	padding-top: 10px;
+	padding-bottom:10px;
+	margin: 0 auto;
+}
+
+.row #p1 {
+	color: #000000;
+}
